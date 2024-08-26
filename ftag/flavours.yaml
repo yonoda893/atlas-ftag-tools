@@ -276,3 +276,31 @@
   cuts: ["iffClass == 0"]
   colour: tab:gray
   category: isolation
+
+## adding new labels
+#HadronGhostTruthLabelID + PartonTruthLabelID
+- name: hadronghostpartonbjets
+  label: $b$-jets
+  cuts: ["HadronGhostPartonTruthLabelID == 5"]
+  colour: tab:blue
+  category: hadronghostparton
+- name: hadronghostpartoncjets
+  label: $c$-jets
+  cuts: ["HadronGhostPartonTruthLabelID == 4"]
+  colour: tab:orange
+  category: hadronghostparton
+- name: hadronghostpartonsjets
+  label: $s$-jets
+  cuts: ["HadronGhostPartonTruthLabelID == 3"]
+  colour: aquamarine
+  category: hadronghostparton
+- name: hadronghostpartonlightjets
+  label: Light-jets
+  cuts: ["HadronGhostPartonTruthLabelID == 0"]
+  colour: tab:green
+  category: hadronghostparton
+- name: hadronghostpartontaujets
+  label: $\tau$-jets
+  cuts: ["HadronGhostPartonTruthLabelID == 15"]
+  colour: tab:purple
+  category: hadronghostparton
