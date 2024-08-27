@@ -67,6 +67,10 @@ def test_Flavours_categories():
         "lepton-decay",
         "PDGID",
         "isolation",
+        "hadronghostparton",
+        "hadronghostpdgid",
+        "hadronghostdecayr",
+        "hadronghostdecaymode"
     ]
     assert Flavours.categories == target
 
