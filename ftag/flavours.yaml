@@ -304,3 +304,84 @@
   cuts: ["HadronGhostPartonTruthLabelID == 15"]
   colour: tab:purple
   category: hadronghostparton
+
+#HadronGhostTruthLabelKsLambdaID
+- name: hadronghostpdgidbjets
+  label: $b$-jets
+  cuts: ["HadronGhostTruthLabelKsLambdaID == 5"]
+  colour: tab:blue
+  category: hadronghostpdgid
+- name: hadronghostpdgidcjets
+  label: $c$-jets
+  cuts: ["HadronGhostTruthLabelKsLambdaID == 4"]
+  colour: tab:orange
+  category: hadronghostpdgid
+- name: hadronghostpdgidsjets
+  label: $s$-jets
+  cuts: ["HadronGhostTruthLabelKsLambdaID == 3"]
+  colour: aquamarine
+  category: hadronghostpdgid
+- name: hadronghostpdgidlightjets
+  label: Light-jets
+  cuts: ["HadronGhostTruthLabelKsLambdaID == 0"]
+  colour: tab:green
+  category: hadronghostpdgid
+- name: hadronghostpdgidtaujets
+  label: $\tau$-jets
+  cuts: ["HadronGhostTruthLabelKsLambdaID == 15"]
+  colour: tab:purple
+  category: hadronghostpdgid
+
+#HadronGhostTruthLabelDecayradiusID
+- name: hadronghostdecayrbjets
+  label: $b$-jets
+  cuts: ["HadronGhostTruthLabelDecayradiusID == 5"]
+  colour: tab:blue
+  category: hadronghostdecayr
+- name: hadronghostdecayrcjets
+  label: $c$-jets
+  cuts: ["HadronGhostTruthLabelDecayradiusID == 4"]
+  colour: tab:orange
+  category: hadronghostdecayr
+- name: hadronghostdecayrsjets
+  label: $s$-jets
+  cuts: ["HadronGhostTruthLabelDecayradiusID == 3"]
+  colour: aquamarine
+  category: hadronghostdecayr
+- name: hadronghostdecayrlightjets
+  label: Light-jets
+  cuts: ["HadronGhostTruthLabelDecayradiusID == 0"]
+  colour: tab:green
+  category: hadronghostdecayr
+- name: hadronghostdecayrtaujets
+  label: $\tau$-jets
+  cuts: ["HadronGhostTruthLabelDecayradiusID == 15"]
+  colour: tab:purple
+  category: hadronghostdecayr
+
+#HadronGhostTruthLabelDecaymodeID
+- name: hadronghostdecaymodebjets
+  label: $b$-jets
+  cuts: ["HadronGhostTruthLabelDecaymodeID == 5"]
+  colour: tab:blue
+  category: hadronghostdecaymode
+- name: hadronghostdecaymodecjets
+  label: $c$-jets
+  cuts: ["HadronGhostTruthLabelDecaymodeID == 4"]
+  colour: tab:orange
+  category: hadronghostdecaymode
+- name: hadronghostdecaymodesjets
+  label: $s$-jets
+  cuts: ["HadronGhostTruthLabelDecaymodeID == 3"]
+  colour: aquamarine
+  category: hadronghostdecaymode
+- name: hadronghostdecaymodelightjets
+  label: Light-jets
+  cuts: ["HadronGhostTruthLabelDecaymodeID == 0"]
+  colour: tab:green
+  category: hadronghostdecaymode
+- name: hadronghostdecaymodetaujets
+  label: $\tau$-jets
+  cuts: ["HadronGhostTruthLabelDecaymodeID == 15"]
+  colour: tab:purple
+  category: hadronghostdecaymode
